@@ -8,7 +8,6 @@ public class demo009 {
         Scanner sc = new Scanner(System.in);
         Cust_Name = sc.nextLine();
         Account_no = sc.nextLong();
-        // Balance = sc.nextDouble();
     }
     void Display_details(){
         System.out.println("Hello "+Cust_Name);
